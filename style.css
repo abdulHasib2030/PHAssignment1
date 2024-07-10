@@ -162,3 +162,161 @@ iframe {
 
 /* Inspiration Content style end here */
 
+/* Target style start here */
+.target-container {
+    width: 1140px;
+    height: 1444px;
+    margin: 0 auto;
+    margin-top: 149px;
+}
+
+.target-content1 {
+    width: 946px;
+    height: 115px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.target-content1 p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 30px;
+}
+
+.target-content2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.target-child {
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.target-child h1 {
+    padding: 30px 0 0 0;
+}
+
+.target-child p,
+.target-content4-child p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    padding: 20px 0 20px 0;
+}
+
+.target-child a,
+.target-content4-child a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+
+.target-content3 {
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    margin-top: 111px;
+    text-align: center;
+}
+
+.target-content3 p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    padding-top: 30px;
+}
+
+.target-content4-child {
+    width: 1140px;
+    height: 220px;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 40px 0;
+    display: flex;
+}
+
+.content {
+    padding-left: 24px;
+}
+
+/* Target style end here */
+
+/* Need Support style start here */
+.support-container {
+    width: 1140px;
+    height: 314px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url('assets/handshake.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 90px;
+    border-radius: 16px;
+    padding: 64px 48px;
+
+}
+
+.support-content {
+    text-align: center;
+}
+
+.support-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin: 16px 0;
+}
+
+.support-content p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin: 16px 0;
+}
+
+input {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    height: 57px;
+    margin: 30px 0 0 0;
+}
+
+.input-btn {
+    padding: 15px 20px 15px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+
+/* Need Support style end here */
