@@ -86,3 +86,79 @@ body {
 
 /* Hero Section style Ends Here */
 
+/* Main section style starts here */
+.main-content {
+    width: 946px;
+    height: 1050px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.main-content>p {
+    padding: 30px 0;
+}
+
+.main-child {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    margin-top: 48px;
+
+}
+
+.child-content {
+    width: 477px;
+    height: 220px;
+
+}
+
+.child-content p {
+    padding: 30px 0;
+}
+
+.btn-main {
+    padding: 12px 20px 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color: rgb(13, 19, 33);
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+}
+
+/* Main section style Ends here */
+
+/* Inspiration Content style Start here */
+.inspiration-container {
+    text-align: center;
+    padding: 0 32px;
+}
+
+.inspiration-content {
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+}
+
+.inspiration-content p {
+    padding: 30px 0;
+}
+
+.inspiration-video {
+    width: 1140px;
+    height: 614px;
+    margin: 0 auto;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+iframe {
+    border-radius: 16px;
+}
+
+/* Inspiration Content style end here */
+
